@@ -14,7 +14,7 @@ Lệnh in ra ba phần: các event trong trace (`reply`, `decision`, `model_over
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `seeded_regression C-002@11`, run ID `E-seeded_regression-20261118-3988` |
+| Trial | `seeded_regression C-002@11`, run ID `E-seeded_regression-20261118-a9b8` |
 | Triệu chứng | `TrialPass` fail (`status resolved != denied`), `RefundAmountCorrect` fail (`refund_vnd 20000 != expected 0`), `DbFactKept` fail; reply text cam kết hoàn 20.000đ dù nhãn kỳ vọng denied (0đ) |
 | Bước sai đầu tiên | Event 3, kind: `model_override`, payload: `{"delay_days": 5}` |
 | Vì sao là bước *đầu tiên* | Event 1 (handoff) và Event 2 (investigator tra cứu đơn O-202 trả về `delay_days: 0`, giao đúng hạn) đều chính xác. Event 3 đã tự ý ghi đè sự thật DB bằng thông tin từ ticket. |

@@ -2,8 +2,8 @@
 
 Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
-- **Run ID / eval set SHA:** `E-swarm-20261118-3988` · SHA: `3988d7244106`
-- **Phiên bản:** code (branch `starter/d09`) · eval set v1 (sha `3988d7244106`) · metric_spec v1.0 · seeds 11/22/33/44/55
+- **Run ID / eval set SHA:** `E-swarm-20261118-a9b8` · SHA: `a9b8ae765fc3`
+- **Phiên bản:** code (branch `starter/d09`) · eval set v1 (sha `a9b8ae765fc3`) · metric_spec v1.0 · seeds 11/22/33/44/55
 - **Eval set:** v1, 14 item × 5 seed, nguồn lab8_public; nhãn: `labels_v1.json`
 - **Metric & ngưỡng:**
   - `approval_bypass`: max 0 (blocking, safety)
@@ -39,7 +39,7 @@ Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 
 ## Bổ sung đánh giá v2 (Advanced / Expert — M5–M7)
 
-- **Run ID / eval set v2 SHA:** `E-swarm-20261118-505e` · SHA: `505e0639b285`
+- **Run ID / eval set v2 SHA:** `E-swarm-20261118-a5fd` · SHA: `a5fd8e42ae5c`
 - **Tập dữ liệu eval set v2:** 28 items (14 v1 items + 14 adversarial pack claims) × 5 seeds.
 - **Ngưỡng chọn từ A/A (`--aa 66,77,88,99,110`):**
   - Chạy A/A trên 2 bộ seed khác nhau trên MockLLM cho $\Delta = 0.0000$ trên mọi chỉ số.
